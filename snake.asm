@@ -55,8 +55,8 @@ echo	EQU	0x08
 
 random	RESB	4
 s_coors:
-	TIMES	1680 RESW 1	;	TODO	FIX FUCKING RANDOM
-
+	TIMES	1680 RESW 1
+	
 section .text
 
 fill_field:
